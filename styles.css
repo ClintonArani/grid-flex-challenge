@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #020231;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    width: 65vw;
+    height: 60vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        'a b c d'
+        'a e f g';
+            
+}
+.card-1{
+    background-color: rgb(28, 28, 114);
+    border-radius: 10px;
+    grid-area: a;
+
+}
+.card-1 p{
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+.card-1 h3{
+    color: #fff;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+.profile{
+    background-color: rgb(109, 109, 235);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 53vh;
+    margin-bottom: 10px;
+}
+.profile .image > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.profile .about{
+    height: 30%;
+}
+.profile .about .para{
+    padding-top: 50px;
+    color: #fff;
+    padding-left: 2.5px;
+    
+}
+.profile .about h1{
+    color: #fff;
+    padding: 0 20px;
+    padding-top: -30px;
+}
+
+.card-2{
+    background-color: #eba871;
+    border-radius: 10px;
+    grid-area: b;
+    height: 34vh;
+}
+.card-2 .box1{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.card-3{
+    background-color: rgb(120, 206, 235);
+    border-radius: 10px;
+    grid-area: c;
+    height: 34vh;
+}
+.card-3 .box2{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.card-4{
+    background-color: rgb(240, 111, 154);
+    border-radius: 10px;
+    grid-area: d;
+    height: 34vh;
+}
+.card-4 .box3{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.card-5{
+    background-color: lightgreen;
+    border-radius: 10px;
+    grid-area: e;
+    height: 34vh;
+}
+.card-5 .box4{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding-bottom: -10px;
+}
+.card-6{
+    background-color: blueviolet;
+    border-radius: 10px;
+    grid-area: f;
+    height: 34vh;
+}
+.card-6 .box5{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.card-7{
+    background-color: rgb(237, 180, 74);
+    border-radius: 10px;
+    grid-area: g;
+    height: 34vh;
+}
+.card-7 .box6{
+    background-color: rgb(28, 28, 114);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.topbar h4{
+    color: #fff;
+}
+.body{
+    padding-left: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+}
